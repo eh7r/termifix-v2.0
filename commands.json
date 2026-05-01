@@ -1,0 +1,127 @@
+{
+  "arch": {
+    "update_system": {
+      "en": "sudo pacman -Syu",
+      "ar": "تحديث النظام",
+      "command": "sudo pacman -Syu"
+    },
+    "install_package": {
+      "en": "Install package",
+      "ar": "تثبيت حزمة",
+      "command": "sudo pacman -S <package_name>"
+    },
+    "remove_package": {
+      "en": "Remove package",
+      "ar": "حذف حزمة",
+      "command": "sudo pacman -R <package_name>"
+    },
+    "repair_system": {
+      "en": "Repair system",
+      "ar": "إصلاح النظام",
+      "command": "sudo pacman -Qk"
+    },
+    "clean_cache": {
+      "en": "Clean cache",
+      "ar": "تنظيف الكاش",
+      "command": "sudo pacman -Sc"
+    },
+    "list_files": {
+      "en": "List files",
+      "ar": "عرض الملفات",
+      "command": "ls -la"
+    },
+    "check_disk": {
+      "en": "Check disk",
+      "ar": "فحص القرص",
+      "command": "df -h"
+    },
+    "check_memory": {
+      "en": "Check memory",
+      "ar": "فحص الذاكرة",
+      "command": "free -h"
+    },
+    "network_status": {
+      "en": "Network status",
+      "ar": "حالة الشبكة",
+      "command": "ip a"
+    },
+    "search_package": {
+      "en": "Search package",
+      "ar": "البحث عن حزمة",
+      "command": "pacman -Ss <package_name>"
+    },
+    "system_info": {
+      "en": "System info",
+      "ar": "معلومات النظام",
+      "command": "uname -a"
+    },
+    "check_services": {
+      "en": "Check services",
+      "ar": "فحص الخدمات",
+      "command": "systemctl list-units --type=service --state=running"
+    }
+  },
+
+  "debian": {
+    "update_system": {
+      "en": "Update system",
+      "ar": "تحديث النظام",
+      "command": "sudo apt update && sudo apt upgrade -y"
+    },
+    "install_package": {
+      "en": "Install package",
+      "ar": "تثبيت حزمة",
+      "command": "sudo apt install <package_name>"
+    },
+    "remove_package": {
+      "en": "Remove package",
+      "ar": "حذف حزمة",
+      "command": "sudo apt remove <package_name>"
+    },
+    "repair_system": {
+      "en": "Repair system",
+      "ar": "إصلاح النظام",
+      "command": "sudo dpkg --configure -a"
+    },
+    "clean_cache": {
+      "en": "Clean cache",
+      "ar": "تنظيف الكاش",
+      "command": "sudo apt autoremove"
+    },
+    "list_files": {
+      "en": "List files",
+      "ar": "عرض الملفات",
+      "command": "ls -la"
+    },
+    "check_disk": {
+      "en": "Check disk",
+      "ar": "فحص القرص",
+      "command": "df -h"
+    },
+    "check_memory": {
+      "en": "Check memory",
+      "ar": "فحص الذاكرة",
+      "command": "free -h"
+    },
+    "network_status": {
+      "en": "Network status",
+      "ar": "حالة الشبكة",
+      "command": "ip a"
+    },
+    "search_package": {
+      "en": "Search package",
+      "ar": "البحث عن حزمة",
+      "command": "apt search <package_name>"
+    },
+    "system_info": {
+      "en": "System info",
+      "ar": "معلومات النظام",
+      "command": "uname -a"
+    },
+    "check_services": {
+      "en": "Check services",
+      "ar": "فحص الخدمات",
+      "command": "systemctl list-units --type=service --state=running"
+    }
+  }
+}
