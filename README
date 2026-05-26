@@ -11,6 +11,7 @@ v2.0
 - Improved UI and output formatting
 
 # TERMIFIX
+![screenshot](termifix-v2.jpg)
 
 TERMIFIX is a lightweight Linux terminal assistant tool designed for Arch Linux and Debian/Ubuntu distributions.  
 It helps users quickly search error messages on Google or execute predefined system commands.
