@@ -1,3 +1,6 @@
+# TERMIFI
+![screenshot](termifixv2-pic.png)
+
 ##Version
 v2.0
 
@@ -9,9 +12,6 @@ v2.0
 - Added password strength checker
 - Fixed JSON structure issues
 - Improved UI and output formatting
-
-# TERMIFI
-![screenshot](termifix-v2.jpg)
 
 
 TERMIFIX is a lightweight Linux terminal assistant tool designed for Arch Linux and Debian/Ubuntu distributions.  
