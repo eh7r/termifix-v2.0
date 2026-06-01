@@ -1,4 +1,4 @@
-# TERMIFI
+# TERMIFIX
 ![screenshot](termifixv2-pic.png)
 
 ##Version
