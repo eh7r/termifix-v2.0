@@ -42,6 +42,6 @@ pip install colorama
 Installation
 
  1. Clone or download the project
- 2. Place both files in the same folder:
+ 2. Place both files in the same folder
  • termifixv2.py
  • commands.json
